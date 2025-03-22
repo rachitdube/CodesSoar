@@ -1,0 +1,20 @@
+{
+  "name": "codesoar-student-management",
+  "version": "1.0.0",
+  "description": "a student mamagement system",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node sever.js",
+    "dev": "nodemon server.js"
+  },
+  "author": "Rachit",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "prisma": "^6.5.0"
+  }
+}
